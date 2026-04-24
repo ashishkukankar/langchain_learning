@@ -4,6 +4,10 @@ https://docs.langchain.com/oss/python/langchain/structured-output
 
 Structure outputs allow agent to return output in specific, predicted formate instead of plain text. You will get structure output in form of json object, Pedantic Model, data classes which is used by your application directly.
 
+`python
+structure_output = model.with_structured_output(Review)
+`
+
 Some llm provide which create structure output for example openAI 
 
 **Format**
